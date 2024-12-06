@@ -1,0 +1,29 @@
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.button {
+  flex: 0 0 30%; /* Each button takes 30% of the row width */
+  height: 50px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #ccc;
+  transform: scale(0.95);
+}
